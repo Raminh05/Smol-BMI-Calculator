@@ -12,7 +12,7 @@ int main() {
   std::cout << "Type in your weight (kg): ";
   std::cin >> weight;
 
-  // Calculate bmi
+  // Calculate bmi (squares height as per the BMI formula)
   bmi = weight / (height * height);
 
   std::cout << "Your BMI is: " << bmi << "\n";
